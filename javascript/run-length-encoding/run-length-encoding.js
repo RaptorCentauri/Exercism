@@ -28,7 +28,6 @@ export const decode = (str, decodedString=``) => {
     return decodedString
   }
 
-  // let decodedSubString;
   let multiplier = ``;
   let subLetter;
   let count;
@@ -50,7 +49,5 @@ export const decode = (str, decodedString=``) => {
   let newString = str.substring(count);
   return decode(newString, decodedString)
 
-
-// return decodedString
 
 }
